@@ -2,44 +2,43 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="styles.css" />
-    <title>Web Design Mastery | Responsive Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Big Data Analyst | Responsive Portfolio</title>
   </head>
   <body>
     <nav>
       <div class="nav__content">
-        <div class="logo"><a href="#">Mitchell</a></div>
+        <div class="logo"><a href="#">Malvika</a></div>
         <label for="check" class="checkbox">
           <i class="ri-menu-line"></i>
         </label>
         <input type="checkbox" name="check" id="check" />
         <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Resume</a></li>
-          <li><a href="#">Portfolio</a></li>
-          <li><a href="#">Contact</a></li>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#resume">Resume</a></li>
+          <li><a href="#certifications">Certifications</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
         </ul>
       </div>
     </nav>
-    <section class="section">
+
+    <section class="section" id="home">
       <div class="section__container">
         <div class="content">
           <p class="subtitle">HELLO</p>
           <h1 class="title">
-            I'm <span>Mitchell<br />a</span> Web Developer
+            I'm <span>Malvika<br />A</span> Big Data Analyst
           </h1>
           <p class="description">
-            Welcome to my web developer portfolio! I'm Mitchell, a skilled and
-            creative web developer with a passion for creating beautiful,
-            responsive, and user-friendly websites. I've worked on a variety of
-            web projects, ranging from personal blogs to e-commerce platforms.
+            Hello! I'm a passionate student specializing in data science and cybersecurity. With a strong
+            foundation in programming, statistics, and data analysis. My curiosity drives me to explore
+            machine learning, data visualization, and predictive modeling.
+            I'm excited to contribute to innovative solutions that protect sensitive information while
+            uncovering valuable insights.
           </p>
           <div class="action__btns">
             <button class="hire__me">Hire Me</button>
@@ -47,9 +46,116 @@
           </div>
         </div>
         <div class="image">
-          <img src="assets/profile.jpg" alt="profile" />
+          <img src="web image.jpeg" alt="profile" />
         </div>
       </div>
     </section>
+
+    <section class="section" id="about">
+      <div class="section__container">
+        <h2>About Me</h2>
+        <p><strong>I am currently pursuing a bachelor's in Data Science and Cyber Security at Garden City University. My academic journey has equipped me with essential skills and knowledge to tackle real-world challenges in the field.</strong></p>
+        <div class="education">
+          <h3>Education</h3>
+          <p><strong>Bachelor's in Data Science and Cyber Security</strong></p>
+          <p>Garden City University</p>
+        </div>
+      </div>
+    </section>
+    
+    <section class="section" id="certifications">
+      <div class="section__container">
+        <h2>Certifications</h2>
+        <p><strong>I have successfully completed multiple certifications which reflect my commitment to ongoing learning and professional development</strong></p>
+        <ul class="certification-list">
+          <li>
+            <strong>1. Using Python to Interact with OS</strong><br />
+            Issued by: <strong>Google</strong>
+          </li>
+          <li>
+            <strong>2. Cybersecurity Essentials</strong><br />
+            Issued by: <strong>IBM</strong>
+          </li>
+          <li>
+            <strong>3. Teamwork Skills</strong><br />
+            Issued by: <strong>University of Colorado Boulder</strong>
+          </li>
+          <li>
+            <strong>4. Operating Systems</strong><br />
+            Issued by: <strong>Google</strong>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section class="section" id="resume"></section>
+      <div class="section__container">
+        <h2>Resume</h2>
+        <p>
+          <strong>For a detailed view of my professional experience and education, please see my attached resume or visit my LinkedIn profile.</strong>
+        </p>
+        <div class="resume-content">
+          <a href="web resume (1).pdf" class="resume-link" download>
+            Click to see My Resume
+          </a>
+          <a href="https://www.linkedin.com/in/malvika-nagoor-bb6723286/" target="_blank" class="linkedin-link">
+            View My LinkedIn Profile
+          </a>
+        </div>
+      </div>
+    </section>
+    <section class="section" id="projects">
+      <div class="section__container">
+        <h2>Projects</h2>
+        <div class="project">
+          <h3>Console-Based ATM System</h3>
+          <p>
+            Developed a console-based ATM system with core functionalities like balance inquiry, cash withdrawal, and deposit. Implemented secure login and session management to ensure user data integrity. The project aimed to simulate real-world ATM operations, providing a user-friendly interface for seamless transactions.
+          </p>
+          <a href="https://github.com/Malviikkaa/ATM" target="_blank" class="project-link">View Project</a>
+          <h3>Biometric Technologies: Face and Voice Recognition</h3>
+        <p>
+          Created a face and voice recognition system using machine learning algorithms to authenticate users.The project aimed to enhance biometric authentication, achieving a high success rate in both face and voice matching.
+        </p>  
+        </div>
+      </div>
+    </section>
+    
+    <section class="section" id="contact"></section>
+      <div class="section__container">
+        <h2>Contact Me</h2>
+        <p><strong>I would love to hear about your project and how I can help you.</strong></p>
+        
+        <form class="contact-form">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required />
+          
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required />
+          
+          <label for="message">Message:</label>
+          <textarea id="message" name="message" rows="5" required></textarea>
+          
+          <button type="submit">Send Message</button>
+        </form>
+
+    
+    
+        <div class="contact-info">
+          <h3>Get in Touch</h3>
+          <div class="info">
+            <a href="tel:+917483580207">
+              <i class="ri-phone-line"></i> +91 7483580207
+            </a>
+            <a href="https://www.linkedin.com/in/malvikanagoor" target="_blank">
+              <i class="ri-linkedin-line"></i> Malvika Nagoor
+            </a>
+            <a href="mailto:malvikanagoor@gmail.com">
+              <i class="ri-mail-line"></i> malvikanagoor@gmail.com
+            </a>
+          </div>
+    </section>
+    <footer>
+      <p>&copy; 2024 Malvika. All rights reserved.</p>
+    </footer>
   </body>
 </html>

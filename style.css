@@ -217,3 +217,227 @@ ul li a:hover {
     margin: auto;
   }
 }
+.section {
+  padding: 4rem 0;
+  background-color: var(--extra-light);
+}
+
+h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  color: var(--primary-color);
+  text-align: center;
+}
+
+.education {
+  background: rgba(168, 85, 247, 0.1);
+  border-left: 5px solid var(--primary-color);
+  padding: 1rem;
+  margin-top: 1.5rem;
+  border-radius: 5px;
+}
+
+h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: var(--primary-color-dark);
+}
+
+p {
+  font-size: 16px;
+  color: var(--text-dark);
+  line-height: 1.6;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: var(--extra-light);
+  margin-top: 2rem;
+}
+.image img {
+  width: min(25rem, 90%);
+  border-radius: 100%;
+}
+.certification-list {
+  list-style: square;
+  padding: 20px;
+  margin: 0;
+  font-size: 16px;
+}
+
+.certification-list li {
+  background: rgba(168, 85, 247, 0.1);
+  border-left: 5px solid var(--primary-color);
+  padding: 1rem;
+  margin-top: 1.5rem;
+  border-radius: 5px;
+}
+
+.certification-list li:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.certification-list li strong {
+  color: var(--primary-color);
+}
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.contact-form label {
+  font-weight: bold;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 0.75rem;
+  border: 1px solid var(--text-light);
+  border-radius: 5px;
+}
+
+.contact-form button {
+  background-color: var(--primary-color);
+  color: white;
+  padding: 0.75rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.contact-form button:hover {
+  background-color: var(--primary-color-dark);
+}
+
+.contact-info {
+  margin-top: 2rem;
+}
+
+.contact-info h3 {
+  margin-bottom: 0.5rem;
+}
+
+.contact-info .info {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.contact-info a {
+  color: var(--text-dark);
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+
+.contact-info a i {
+  margin-right: 0.5rem;
+}
+.resume-content {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+
+.resume-link,
+.linkedin-link {
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  color: white;
+  text-align: center;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.resume-link {
+  background-color: var(--primary-color);
+}
+
+.linkedin-link {
+  background-color: #0077b5; /* LinkedIn blue */
+}
+
+.resume-link:hover,
+.linkedin-link:hover {
+  transform: translateY(-2px);
+}
+
+h2 {
+  margin-top: 0;
+  font-size: 28px;
+  color: var(--primary-color-dark);
+}
+
+p {
+  font-size: 16px;
+  color: var(--text-dark);
+  line-height: 1.6;
+}
+#projects {
+  background-color: #f0f4f8;
+  padding: 2rem;
+  border-radius: 8px;
+  margin-top: 2rem;
+}
+
+.project {
+  background-color: #fff;
+  border: 1px solid #e0e0e0;
+  border-radius: 5px;
+  padding: 1.5rem;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 1.5rem;
+}
+
+.project h3 {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 0.5rem;
+}
+
+.project p {
+  font-size: 16px;
+  color: #555;
+  line-height: 1.6;
+  margin-bottom: 1rem;
+}
+
+.project-link {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  background-color: #007bff;
+  color: white;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background-color 0.3s;
+}
+
+.project-link:hover {
+  background-color: #0056b3;
+}
+.image {
+  display: grid;
+  place-items: center;
+  background-color: rgba(45, 12, 75, 0.1); /* Light background */
+  border-radius: 10px; /* Rounded corners */
+  padding: 1rem; /* Padding around the image */
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Subtle shadow effect */
+}
+
+.image img {
+  width: min(15rem, 80%); /* Make the image smaller */
+  border-radius: 10%; /* Maintain rounded corners */
+  transition: transform 0.3s; /* Smooth scaling on hover */
+}
+
+.image img:hover {
+  transform: scale(1.05); /* Scale up on hover for effect */
+}
